@@ -17,7 +17,7 @@ public class AssignmentTest3 {
 	private  ArrayList<Appointment> arraylisttest = new ArrayList<Appointment>();
 	private Menuappointment menu = new Menuappointment();
 	
-
+//test 
 	@Before
 	public void setUp() throws Exception {
 		Appointment1 = new Appointment("1", "Joseph", "1234","1", "Joseph", "1234");

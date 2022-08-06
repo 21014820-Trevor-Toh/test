@@ -8,7 +8,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-
+//test
 public class AssignmentTest2 {
 	private Bike Bike1;
 	private Bike Bike2;
