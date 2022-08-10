@@ -76,7 +76,9 @@ public class feedbackmenu {
  }
  public void deleteFeedback(ArrayList<Feedback> FeedbackArrayList,Feedback Feedback) {
   for(int i = 0 ; i<FeedbackArrayList.size();i++) {
-   if(FeedbackArrayList.get(i).getFeedback_ID().equalsIgnoreCase(Feedback.getFeedback_ID())&&FeedbackArrayList.get(i).getUsername().equalsIgnoreCase(Feedback.getUsername())&&FeedbackArrayList.get(i).getUserID().equalsIgnoreCase(Feedback.getUserID())){
+   if(FeedbackArrayList.get(i).getFeedback_ID().equalsIgnoreCase(Feedback.getFeedback_ID())
+		   &&FeedbackArrayList.get(i).getUsername().equalsIgnoreCase(Feedback.getUsername())
+		   &&FeedbackArrayList.get(i).getUserID().equalsIgnoreCase(Feedback.getUserID())){
     FeedbackArrayList.remove(i);
    }
   }
