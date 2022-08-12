@@ -19,6 +19,10 @@ public class MenuofMenu {
 				MenuBike menubike = new MenuBike();
 				menubike.Start();
 			}
+			if(option == 3) {
+				C206_CaseStudy casestudy = new C206_CaseStudy();
+				casestudy.start();
+			}
 			if(option == 4) {
 				Menuappointment menuappointment =  new Menuappointment();
 				menuappointment.Start();
@@ -41,7 +45,7 @@ public class MenuofMenu {
 		System.out.println("3.Bike Parts ");
 		System.out.println("4.Appointment ");
 		System.out.println("5.Feedback");
-		System.out.println("6.Quits");
+		System.out.println("6.Quit");
 		Helper.line(50, "=");
 	}
 }
